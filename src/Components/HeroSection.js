@@ -2,12 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Hero = styled.section`
-  background-image: url('https://via.placeholder.com/1920x600');
   height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
   text-align: center;
   background-size: cover;
 `;

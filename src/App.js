@@ -7,6 +7,8 @@ import ServicesPage from './Pages/ServicesPage';
 import ContactPage from './Pages/ContactPage';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import HeroSection from './Components/HeroSection';
+// import ServiceCard from './Components/ServiceCard';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/services" component={ServicesPage} />
         <Route path="/contact" component={ContactPage} />
       </Routes>
+      <HeroSection></HeroSection>
+      {/* <ServiceCard></ServiceCard> */}
       <Footer />
     </Router>
   );
